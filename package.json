@@ -1,0 +1,23 @@
+{
+  "name": "slick-wp-gallery",
+  "version": "1.0.0",
+  "description": "Convert the standard WP Gallery into a Slick Carousel",
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "phpcs": "./vendor/bin/phpcs --standard=Wordpress --colors includes templates create-ical.php folk-calendar.php uninstall.php",
+    "phpcbf": "./vendor/bin/phpcbf --standard=Wordpress --colors includes templates create-ical.php folk-calendar.php uninstall.php"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp": "^4.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "node-sass": "^4.14.1"
+  },
+  "author": "Dominic Carrington <dominic@watchthedot.com>",
+  "license": "ISC"
+}
