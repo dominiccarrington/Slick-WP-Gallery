@@ -1,12 +1,8 @@
 {
-	"name": "hlashbrooke/wordpress-plugin-template",
-	"license": "GPL-2.0-or-later",
-	"description": "A robust code template for creating a standards-compliant WordPress plugin.",
-	"keywords": [
-		"wordpress", "wp", "plugin template"
-	],
+	"name": "dominiccarrington/slick-wp-gallery",
+	"description": "Convert the standard WP Gallery into a Slick Carousel",
 	"support": {
-		"issues": "https://github.com/hlashbrooke/WordPress-Plugin-Template"
+		"issues": "https://github.com/dominiccarrington/Slick-WP-Gallery"
 	},
 	"require": {
 		"php": ">=5.4",

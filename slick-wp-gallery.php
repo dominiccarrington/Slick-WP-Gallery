@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Slick WP Gallery
  * Version: 1.0.0
- * Plugin URI: http://github.com/dominiccarrington/Slick-WP-Gallery
+ * Plugin URI: https://github.com/dominiccarrington/Slick-WP-Gallery
  * Description: Convert the standard WP Gallery into a Slick Carousel
  * Author: Dominic Carrington
  * Author URI: http://dominiccarrington.github.io
