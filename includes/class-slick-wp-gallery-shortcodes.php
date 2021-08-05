@@ -32,6 +32,10 @@ class Slick_WP_Gallery_Shortcodes {
     }
     
     public function gallery($instance, $attr) {
+        if (!isset($attr['slick']) || ((bool) $attr['slick']) === false) {
+            return;
+        }
+
         // This is straight C+P from wp-includes/media.php:1914
         // Got to get the attachments somehow!
         $post = get_post();
@@ -134,9 +138,10 @@ class Slick_WP_Gallery_Shortcodes {
             (function ($) {
                 $(document).ready(() => {
                     $('#<?php echo $id ?>').slick({
-                        dots: true,
                         slidesToShow: <?php echo intval( $atts['columns'] ); ?>,
-                        adaptiveHeight: true
+                        adaptiveHeight: true,
+                        autoplay: true,
+                        autoplaySpeed: 5000
                     });
                 });
             })(jQuery);

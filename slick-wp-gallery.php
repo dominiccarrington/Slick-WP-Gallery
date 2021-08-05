@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: Slick WP Gallery
- * Version: 1.0.0
+ * Version: 1.1.0
  * Plugin URI: https://github.com/dominiccarrington/Slick-WP-Gallery
  * Description: Convert the standard WP Gallery into a Slick Carousel
  * Author: Dominic Carrington
- * Author URI: http://dominiccarrington.github.io
+ * Author URI: http://watchthedot.com
  * Requires at least: 5.0
- * Tested up to: 5.4
+ * Tested up to: 5.6
  *
  * @package WordPress
  * @author Dominic Carrington
@@ -35,7 +35,7 @@ require_once 'includes/lib/class-slick-wp-gallery-taxonomy.php';
  * @return object Slick_WP_Gallery
  */
 function slick_wp_gallery() {
-	$instance = Slick_WP_Gallery::instance( __FILE__, '1.0.0' );
+	$instance = Slick_WP_Gallery::instance( __FILE__, '1.1.0' );
 
 	if ( is_null( $instance->settings ) ) {
 		$instance->settings = Slick_WP_Gallery_Settings::instance( $instance );
