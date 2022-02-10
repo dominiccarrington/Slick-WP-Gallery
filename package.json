@@ -16,7 +16,7 @@
     "gulp-svgmin": "^2.2.0",
     "gulp-minify": "^3.1.0",
     "gulp-clean-css": "^4.3.0",
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "author": "Dominic Carrington <dominic@watchthedot.com>"
 }
